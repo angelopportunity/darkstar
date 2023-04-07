@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 import ForSale from './ForSale'
 import About from './About'
 import Portfolio from './Portfolio'
