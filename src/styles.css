@@ -1,0 +1,331 @@
+
+html {
+    overflow-y: scroll;
+  }
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    color: #010101;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    margin: 0;
+    background: url(blackbg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.header {
+    display: flex;
+    height: 75px;
+    font-size: 15px;
+    background-color: white;
+    font-weight: 400;
+    border-bottom: black solid 1px;
+    width: 100%;
+    justify-content: space-between;
+   
+
+  }
+  
+  .header--logo--container {
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .header--text--container {
+    display: flex;
+    align-items: center;
+    padding-right: 200px;
+   
+  }
+
+  .header--logotext--container {
+    display: inline-flex;
+    align-items: justify;
+    font-size: 32px;
+    
+
+  }
+   
+.logo--text--black {
+color: black;
+display: inline-block;
+align-items: center;
+}
+
+.logo--text--black--border {
+    border-right: #02ec88 solid 3px;
+    padding-right: 15px;
+}
+
+.padded {
+   padding-left: 15px;
+}
+
+.header--link {
+    display: inline-block;
+    padding: 45px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 18px;
+    transition: font-size 0.25s ease-in-out; 
+  }
+  
+  .header--link:not(.clicked) div {
+    font-size: 18px; 
+
+  }
+  
+  .header--link:hover div {
+    border-bottom: #02ec88 solid 1px;
+    margin-bottom: -1px;
+  }
+  
+  .header--link.clicked div {
+    border-bottom: #ff00ff solid 1px;
+    transition: border-color 0.25s; 
+    margin-bottom: -1px;
+  }
+
+
+.selected--component {
+    margin-top: 80px;
+}
+  
+.about {
+    padding: 30px;
+    width: 450px;
+    justify-content: center;
+    margin: auto;
+    border: white solid 2px;
+    background-color: rgb(17, 16, 17, 0.5);
+    
+}
+
+p {
+text-align: justify;
+color: white;
+font-size: 20px;
+}
+
+h1 {
+    margin-top: 0px;
+    font-size: 30px;
+    color: #02ec88
+}
+
+h2 {
+    
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 0px;
+    color: #02ec88
+    
+}
+
+#arrow {
+    height: 22px;
+    padding-right: 20px;
+ 
+
+}
+
+#logo {
+    height: 40px;
+    padding-right: 15px;
+}
+
+.portfolio--container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.portfolio--grid {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(auto, 560px);
+    grid-gap: 40px;
+    justify-content: center;
+    
+}
+
+.forsale--info {
+
+  color: white;
+  font-size: 20px;
+  width: 325px;
+
+
+}
+
+.forsale--info > p {
+  text-align: center;
+}
+
+.forsale--info > h2 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  color: white;
+}
+
+.cover--image {
+    max-width: 300px;
+}
+
+.portfolio--header {
+
+    color:#02ec88;
+    text-align: left;
+    font-size: 55px;
+    border-bottom:#02ec88 1px solid;
+    padding-left: 200px;
+}
+
+.forsale--box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgb(17, 16, 17, 0.7);
+  border: #02ec88 solid 2px;
+
+ 
+  
+}
+
+.info-wrapper {
+  display: block;
+  width: 100%;
+  word-wrap: break-word;
+ 
+}
+
+
+.forsale--grid {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  
+  grid-template-rows: repeat(auto, auto);
+  row-gap: 75px;
+  column-gap: 75px;
+  justify-content: center;
+
+}
+
+.forsale--cover--image {
+  max-width: 300px;
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-bottom: 10px;
+  border:#02ec88;
+
+}
+
+.forsale--portfolio--section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.forsale--button {
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border: solid 1px;
+}
+
+.Forsale {
+
+}
+.orderform--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.orderform {
+  margin-top: 25px;
+  display: flex;
+  color: white;
+  padding: 30px;
+  width: 500px;
+  justify-content: center;
+  border:#02ec88 solid 2px;
+  background-color: rgb(17, 16, 17, 0.5);
+  flex-direction: column;
+}
+
+.orderform--label {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.orderform--label--wrapper {
+  margin-right: 30px;
+  min-width: 120px;
+}
+
+.orderform--label > input,
+.orderform--label > textarea {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.orderform--label > textarea {
+  margin-top: 25px;
+  height: 200px;
+
+}
+
+.orderform--cover--image {
+  max-width: 300px;
+}
+
+.orderform--submitbutton {
+  margin-top: 10px;
+  max-width: 100px;
+  height: 35px;
+}
+
+.orderform--textarea--label--wrapper {
+  width: 600px;
+  height: 400px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.orderform--textarea {
+  margin-top: 20px;
+  height: 200px;
+}
+
+.orderform > h2 {
+  margin-bottom: 20px;
+  margin-top: 0px;
+  color:#02ec88;
+  font-size: 25px;
+  text-align: center;
+}
