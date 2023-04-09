@@ -12,7 +12,7 @@ export default function About() {
 
             <p>As a former author, I know how important an amazing cover is. Without a great cover, your book will not sell. Let me help you give your book the best chance it can get.</p>
 
-            <img src="arrow.png" id="arrow"></img><h2>CLICK HERE TO GET A COVER</h2>
+            <img onClick={() => handleItemClick(<ForSale onBuyButtonClick={props.onBuyButtonClick} />, 'forSale')} src="arrow.png" id="arrow"></img><h2>CLICK HERE TO GET A COVER</h2>
             </div>
     )
 }
