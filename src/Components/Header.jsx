@@ -67,8 +67,8 @@ export default function Header(props) {
 <div>FOR SALE</div>
 </div>
 
-<div onClick={() => handleItemClick(<About />, 'about')} className={`header--link ${clickedLinks['about'] ? 'clicked' : ''}`}>
-<div>ABOUT</div>
+<div onClick={() => handleItemClick(<About onCoverClick={props.onCoverClick} handleItemClick={props.handleItemClick} onBuyButtonClick={props.onBuyButtonClick} />, 'about')} className={`header--link ${clickedLinks['about'] ? 'clicked' : ''}`}>
+  <div>ABOUT</div>
 </div>
 
 <div onClick={() => handleItemClick(<Portfolio />, 'portfolio')} className={`header--link ${clickedLinks['portfolio'] ? 'clicked' : ''}`}>

@@ -1,4 +1,5 @@
 import React from 'react'
+import ForSale from './ForSale'
 
 export default function About(props) {
     return (
@@ -12,7 +13,10 @@ export default function About(props) {
 
             <p>As a former author, I know how important an amazing cover is. Without a great cover, your book will not sell. Let me help you give your book the best chance it can get.</p>
 
-            <img onClick={() => props.handleItemClick(<ForSale onBuyButtonClick={props.onBuyButtonClick} />, 'forSale')} src="arrow.png" id="arrow"></img><h2>CLICK HERE TO GET A COVER</h2>
+            <img src="arrow.png" id="arrow"></img> <h2 onClick={props.onCoverClick}>CLICK HERE TO GET A COVER</h2>
+
+
+
             </div>
     )
 }
