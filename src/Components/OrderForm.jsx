@@ -17,7 +17,7 @@ return (
         <img className="orderform--cover--image" src={props.book.imageURL}/>
         </div>
    
-        <form className="orderform" onSubmit={handleSubmit} action="https://submit.formbold.com/s/oJpMB" method="POST">
+        <form className="orderform" onSubmit={handleSubmit} action="https://formbold.com/s/oJpMB" method="POST">
         <h2>ORDER FORM FOR {props.book.title.toUpperCase()}</h2>
         <label className="orderform--label"><span className="orderform--label--wrapper">Name:</span>
         <input
