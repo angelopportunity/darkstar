@@ -15,7 +15,7 @@ export default [
     
     {
         title: "Alien Savage's Claim",
-        imageURL: "src/Images/aya3.jpeg",
+        imageURL: "aya3.jpeg",
         genre: "SCIFI ROMANCE",
         price: "$300"
     },
