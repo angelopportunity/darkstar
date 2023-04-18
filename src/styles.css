@@ -125,7 +125,8 @@ h2 {
     color: white;
     display: inline-block;
     margin-bottom: 0px;
-    color: #02ec88
+    color: #02ec88;
+    overflow-wrap: break-word;
     
 }
 
@@ -177,7 +178,10 @@ h2 {
 .forsale--info > h2 {
   word-wrap: break-word;
   overflow-wrap: break-word;
+  white-space: normal;
+  word-break: break-word;
   color: white;
+  display: block;
 }
 
 .cover--image {
@@ -213,7 +217,10 @@ h2 {
   display: block;
   width: 100%;
   word-wrap: break-word;
- 
+  overflow-wrap: break-word;
+  white-space: normal;
+  word-break: break-word;
+  max-width: 300px;
 }
 
 
@@ -222,7 +229,6 @@ h2 {
   padding-bottom: 1.75em;
   display: grid;
   grid-template-columns: repeat(3, auto);
-  
   grid-template-rows: repeat(auto, auto);
   row-gap: 6em;
   column-gap: 6em;
