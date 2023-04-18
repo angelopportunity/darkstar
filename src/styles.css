@@ -20,7 +20,7 @@ body {
 .header {
     display: flex;
     height: 5em;
-    font-size: 15px;
+    font-size: 12px;
     background-color: white;
     font-weight: 400;
     border-bottom: black solid 1px;
@@ -31,7 +31,7 @@ body {
   }
   
   .header--logo--container {
-    padding-left: 10%;
+    padding-left: 5%;
     display: flex;
     align-items: center;
 
@@ -40,14 +40,14 @@ body {
   .header--text--container {
     display: flex;
     align-items: center;
-    padding-right: 10%;
+    padding-right: 3%;
    
   }
 
   .header--logotext--container {
     display: inline-flex;
     align-items: justify;
-    font-size: 32px;
+    font-size: 10px;
     
 
   }
@@ -59,7 +59,7 @@ align-items: center;
 }
 
 .logo--text--black--border {
-    border-right: #02ec88 solid 3px;
+    border-right: #02ec88 solid 1px;
     padding-right: .5em;
 }
 
@@ -69,15 +69,15 @@ align-items: center;
 
 .header--link {
     display: inline-block;
-    padding: 2.5em;
+    padding: 1.2em;
     white-space: nowrap;
     text-align: center;
-    font-size: 18px;
+    font-size: 9px;
     transition: font-size 0.25s ease-in-out; 
   }
   
   .header--link:not(.clicked) div {
-    font-size: 18px; 
+    font-size: 9px; 
 
   }
   
@@ -94,12 +94,12 @@ align-items: center;
 
 
 .selected--component {
-    margin-top: 5em;
+    margin-top: 3.5em;
 }
   
 .about {
     padding: 2em;
-    width: 450px;
+    width: 75%;
     justify-content: center;
     margin: auto;
     border: white solid 2px;
@@ -110,18 +110,18 @@ align-items: center;
 p {
 text-align: justify;
 color: white;
-font-size: 20px;
+font-size: 12px;
 }
 
 h1 {
     margin-top: 0px;
-    font-size: 30px;
+    font-size: 20px;
     color: #02ec88
 }
 
 h2 {
     
-    font-size: 24px;
+    font-size: 8px;
     color: white;
     display: inline-block;
     margin-bottom: 0px;
@@ -131,16 +131,16 @@ h2 {
 }
 
 #arrow {
-    height: 1.25em;
-    padding-right: 1.5em;
+    height: 1em;
+    padding-right: .5em;
  
 
 }
 
 #logo {
-    height: 2.75em;
-    padding-right: 1em;
-    padding-bottom: .5em;
+    height: 1em;
+    padding-right: .25em;
+
 }
 
 .portfolio--container {
@@ -155,9 +155,9 @@ h2 {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     display: grid;
-    grid-template-columns: repeat(3, 24.5%);
+    grid-template-columns: repeat(3, 20%);
     grid-template-rows: repeat(auto, 10%);
-    grid-gap: 3.3em;
+    grid-gap: 1em;
     justify-content: center;
     
 }
@@ -165,10 +165,12 @@ h2 {
 .forsale--info {
 
   color: white;
-  font-size: 20px;
+  font-size: 10px;
   width: 100%;
+}
 
-
+.forsale--info > p {
+  font-size: 6px;
 }
 
 .forsale--info > p {
@@ -185,16 +187,16 @@ h2 {
 }
 
 .cover--image {
-    max-width: 300px;
+    max-width: 75px;
 }
 
 .portfolio--header {
 
     color:#02ec88;
     text-align: left;
-    font-size: 55px;
+    font-size: 15px;
     border-bottom:#02ec88 1px solid;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .forsale--box {
@@ -202,15 +204,12 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 4em;
-  padding-right: 4em;
-  padding-top: 1.75em;
-  padding-bottom: 1.75em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   background-color: rgb(17, 16, 17, 0.7);
-  border: #02ec88 solid 2px;
-
- 
-  
+  border: #02ec88 solid 1px;
 }
 
 .info-wrapper {
@@ -220,27 +219,27 @@ h2 {
   overflow-wrap: break-word;
   white-space: normal;
   word-break: break-word;
-  max-width: 300px;
+  max-width: 75px;
 }
 
 
 .forsale--grid {
-  padding-top: 1.75em;
-  padding-bottom: 1.75em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(auto, auto);
-  row-gap: 6em;
-  column-gap: 6em;
+  row-gap: 1em;
+  column-gap: 1em;
   justify-content: center;
 
 }
 
 .forsale--cover--image {
-  max-width: 300px;
+  max-width: 75px;
   margin-left: auto; 
   margin-right: auto; 
-  margin-bottom: 1em;
+  margin-bottom: .25em;
   border:#02ec88;
 
 }
@@ -252,7 +251,7 @@ h2 {
 }
 
 .forsale--button {
-  font-size: 20px;
+  font-size: 6px;
   color: white;
   background-color: transparent;
   border: solid 1px;
@@ -266,18 +265,21 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
+
 }
 
 .orderform {
   margin-top: 2em;
   display: flex;
   color: white;
-  padding: 2.5em;
-  width: 33%;
+  padding: 1em;
+  width: 70%;
   justify-content: center;
-  border:#02ec88 solid 2px;
+  border:#02ec88 solid 1px;
   background-color: rgb(17, 16, 17, 0.5);
   flex-direction: column;
+  margin-bottom: 2em;
 }
 
 .orderform--label {
@@ -285,6 +287,7 @@ h2 {
   display: flex;
   align-items: center;
   width: 85%;
+  font-size: 12px;
 }
 
 .orderform--label--wrapper {
@@ -296,7 +299,7 @@ h2 {
 .orderform--label > textarea {
   flex: 1;
   padding: .6em;
-  font-size: 16px;
+  font-size: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -308,7 +311,7 @@ h2 {
 }
 
 .orderform--cover--image {
-  max-width: 300px;
+  max-width: 200px;
 }
 
 .orderform--submitbutton {
@@ -326,6 +329,7 @@ h2 {
   height: 10em;
   line-height: 1.5em;
   text-align: justify;
+  font-size: 12px;
 }
 
 .orderform--textarea {
@@ -337,6 +341,351 @@ h2 {
   margin-bottom: 1.25em;
   margin-top: 0px;
   color:#02ec88;
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  color: #010101;
+  font-family: 'Copenhagen Grotesk', sans-serif;
+  margin: 0;
+  background: url('/blackbg.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.header {
+  display: flex;
+  height: 5em;
+  font-size: 15px;
+  background-color: white;
+  font-weight: 400;
+  border-bottom: black solid 1px;
+  width: 100%;
+  justify-content: space-between;
+ 
+
+}
+
+.header--logo--container {
+  padding-left: 10%;
+  display: flex;
+  align-items: center;
+
+}
+
+.header--text--container {
+  display: flex;
+  align-items: center;
+  padding-right: 10%;
+ 
+}
+
+.header--logotext--container {
+  display: inline-flex;
+  align-items: justify;
+  font-size: 32px;
+  
+
+}
+ 
+.logo--text--black {
+color: black;
+display: inline-block;
+align-items: center;
+}
+
+.logo--text--black--border {
+  border-right: #02ec88 solid 3px;
+  padding-right: .5em;
+}
+
+.padded {
+ padding-left: .5em;
+}
+
+.header--link {
+  display: inline-block;
+  padding: 2.5em;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 18px;
+  transition: font-size 0.25s ease-in-out; 
+}
+
+.header--link:not(.clicked) div {
+  font-size: 18px; 
+
+}
+
+.header--link:hover div {
+  border-bottom: #02ec88 solid 1px;
+  margin-bottom: -1px;
+}
+
+.header--link.clicked div {
+  border-bottom: #ff00ff solid 1px;
+  transition: border-color 0.25s; 
+  margin-bottom: -1px;
+}
+
+
+.selected--component {
+  margin-top: 5em;
+}
+
+.about {
+  padding: 2em;
+  width: 450px;
+  justify-content: center;
+  margin: auto;
+  border: white solid 2px;
+  background-color: rgb(17, 16, 17, 0.5);
+  
+}
+
+p {
+text-align: justify;
+color: white;
+font-size: 20px;
+}
+
+h1 {
+  margin-top: 0px;
+  font-size: 30px;
+  color: #02ec88
+}
+
+h2 {
+  
+  font-size: 24px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 0px;
+  color: #02ec88;
+  overflow-wrap: break-word;
+  
+}
+
+#arrow {
+  height: 1.25em;
+  padding-right: 1.5em;
+
+
+}
+
+#logo {
+  height: 2.75em;
+  padding-right: 1em;
+  padding-bottom: .5em;
+}
+
+.portfolio--container {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+.portfolio--grid {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  display: grid;
+  grid-template-columns: repeat(3, 24.5%);
+  grid-template-rows: repeat(auto, 10%);
+  grid-gap: 3.3em;
+  justify-content: center;
+  
+}
+
+.forsale--info {
+
+color: white;
+font-size: 20px;
+width: 100%;
+
+
+}
+
+.forsale--info > p {
+text-align: center;
+}
+
+.forsale--info > h2 {
+word-wrap: break-word;
+overflow-wrap: break-word;
+white-space: normal;
+word-break: break-word;
+color: white;
+display: block;
+}
+
+.cover--image {
+  max-width: 300px;
+}
+
+.portfolio--header {
+
+  color:#02ec88;
+  text-align: left;
+  font-size: 55px;
+  border-bottom:#02ec88 1px solid;
+  padding-left: 10%;
+}
+
+.forsale--box {
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 4em;
+padding-right: 4em;
+padding-top: 1.75em;
+padding-bottom: 1.75em;
+background-color: rgb(17, 16, 17, 0.7);
+border: #02ec88 solid 2px;
+
+
+
+}
+
+.info-wrapper {
+display: block;
+width: 100%;
+word-wrap: break-word;
+overflow-wrap: break-word;
+white-space: normal;
+word-break: break-word;
+max-width: 300px;
+}
+
+
+.forsale--grid {
+padding-top: 1.75em;
+padding-bottom: 1.75em;
+display: grid;
+grid-template-columns: repeat(3, auto);
+grid-template-rows: repeat(auto, auto);
+row-gap: 6em;
+column-gap: 6em;
+justify-content: center;
+
+}
+
+.forsale--cover--image {
+max-width: 300px;
+margin-left: auto; 
+margin-right: auto; 
+margin-bottom: 1em;
+border:#02ec88;
+
+}
+
+.forsale--portfolio--section {
+display: flex;
+flex-direction: column;
+align-items: center; 
+}
+
+.forsale--button {
+font-size: 20px;
+color: white;
+background-color: transparent;
+border: solid 1px;
+}
+
+.Forsale {
+
+}
+.orderform--container {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.orderform {
+margin-top: 2em;
+display: flex;
+color: white;
+padding: 2.5em;
+width: 33%;
+justify-content: center;
+border:#02ec88 solid 2px;
+background-color: rgb(17, 16, 17, 0.5);
+flex-direction: column;
+}
+
+.orderform--label {
+margin-bottom: 1.75em;
+display: flex;
+align-items: center;
+width: 85%;
+}
+
+.orderform--label--wrapper {
+margin-right: 2.25em;
+min-width: 15%;
+}
+
+.orderform--label > input,
+.orderform--label > textarea {
+flex: 1;
+padding: .6em;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.orderform--label > textarea {
+margin-top: 25px;
+height: 200px;
+
+}
+
+.orderform--cover--image {
+max-width: 300px;
+}
+
+.orderform--submitbutton {
+font-size: 20px;
+color: white;
+background-color: transparent;
+border: solid 1px;
+width: 4em;
+margin-top: 1em;
+
+}
+
+.orderform--textarea--label--wrapper {
+width: 33%;
+height: 10em;
+line-height: 1.5em;
+text-align: justify;
+}
+
+.orderform--textarea {
+margin-top: 1.5em;
+height: 10em;
+}
+
+.orderform > h2 {
+margin-bottom: 1.25em;
+margin-top: 0px;
+color:#02ec88;
+font-size: 25px;
+text-align: center;
+}
 }
