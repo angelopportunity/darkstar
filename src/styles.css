@@ -19,7 +19,7 @@ body {
 
 .header {
     display: flex;
-    height: 75px;
+    height: 5em;
     font-size: 15px;
     background-color: white;
     font-weight: 400;
@@ -31,7 +31,7 @@ body {
   }
   
   .header--logo--container {
-    padding-left: 200px;
+    padding-left: 10%;
     display: flex;
     align-items: center;
 
@@ -40,7 +40,7 @@ body {
   .header--text--container {
     display: flex;
     align-items: center;
-    padding-right: 200px;
+    padding-right: 10%;
    
   }
 
@@ -60,16 +60,16 @@ align-items: center;
 
 .logo--text--black--border {
     border-right: #02ec88 solid 3px;
-    padding-right: 15px;
+    padding-right: .5em;
 }
 
 .padded {
-   padding-left: 15px;
+   padding-left: .5em;
 }
 
 .header--link {
     display: inline-block;
-    padding: 45px;
+    padding: 2.5em;
     white-space: nowrap;
     text-align: center;
     font-size: 18px;
@@ -94,11 +94,11 @@ align-items: center;
 
 
 .selected--component {
-    margin-top: 80px;
+    margin-top: 5em;
 }
   
 .about {
-    padding: 30px;
+    padding: 2em;
     width: 450px;
     justify-content: center;
     margin: auto;
@@ -130,15 +130,16 @@ h2 {
 }
 
 #arrow {
-    height: 22px;
-    padding-right: 20px;
+    height: 1.25em;
+    padding-right: 1.5em;
  
 
 }
 
 #logo {
-    height: 40px;
-    padding-right: 15px;
+    height: 2.75em;
+    padding-right: 1em;
+    padding-bottom: .5em;
 }
 
 .portfolio--container {
@@ -150,12 +151,12 @@ h2 {
 }
 
 .portfolio--grid {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     display: grid;
-    grid-template-columns: repeat(3, 350px);
-    grid-template-rows: repeat(auto, 560px);
-    grid-gap: 40px;
+    grid-template-columns: repeat(3, 24.5%);
+    grid-template-rows: repeat(auto, 10%);
+    grid-gap: 3.3em;
     justify-content: center;
     
 }
@@ -164,7 +165,7 @@ h2 {
 
   color: white;
   font-size: 20px;
-  width: 325px;
+  width: 100%;
 
 
 }
@@ -189,7 +190,7 @@ h2 {
     text-align: left;
     font-size: 55px;
     border-bottom:#02ec88 1px solid;
-    padding-left: 200px;
+    padding-left: 10%;
 }
 
 .forsale--box {
@@ -197,10 +198,10 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 1.75em;
+  padding-bottom: 1.75em;
   background-color: rgb(17, 16, 17, 0.7);
   border: #02ec88 solid 2px;
 
@@ -217,14 +218,14 @@ h2 {
 
 
 .forsale--grid {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 1.75em;
+  padding-bottom: 1.75em;
   display: grid;
   grid-template-columns: repeat(3, auto);
   
   grid-template-rows: repeat(auto, auto);
-  row-gap: 75px;
-  column-gap: 75px;
+  row-gap: 6em;
+  column-gap: 6em;
   justify-content: center;
 
 }
@@ -233,7 +234,7 @@ h2 {
   max-width: 300px;
   margin-left: auto; 
   margin-right: auto; 
-  margin-bottom: 10px;
+  margin-bottom: 1em;
   border:#02ec88;
 
 }
@@ -262,11 +263,11 @@ h2 {
 }
 
 .orderform {
-  margin-top: 25px;
+  margin-top: 2em;
   display: flex;
   color: white;
-  padding: 30px;
-  width: 500px;
+  padding: 2.5em;
+  width: 33%;
   justify-content: center;
   border:#02ec88 solid 2px;
   background-color: rgb(17, 16, 17, 0.5);
@@ -274,21 +275,21 @@ h2 {
 }
 
 .orderform--label {
-  margin-bottom: 25px;
+  margin-bottom: 1.75em;
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 85%;
 }
 
 .orderform--label--wrapper {
-  margin-right: 30px;
-  min-width: 120px;
+  margin-right: 2.25em;
+  min-width: 15%;
 }
 
 .orderform--label > input,
 .orderform--label > textarea {
   flex: 1;
-  padding: 8px;
+  padding: .6em;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -315,19 +316,19 @@ h2 {
 }
 
 .orderform--textarea--label--wrapper {
-  width: 600px;
-  height: 400px;
-  line-height: 20px;
+  width: 33%;
+  height: 10em;
+  line-height: 1.5em;
   text-align: justify;
 }
 
 .orderform--textarea {
-  margin-top: 20px;
-  height: 200px;
+  margin-top: 1.5em;
+  height: 10em;
 }
 
 .orderform > h2 {
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
   margin-top: 0px;
   color:#02ec88;
   font-size: 25px;
